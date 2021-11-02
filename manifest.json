@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name" : "Summarize This Video",
+    "description" : "This extension helps you summarize any video so that you know what it has to say.",
+    "version" : "1.0.1",
+    "author" : "Shrey & Tejas",
+    "permission": [
+        "activTab",
+        "storage",
+        "tabs",
+        "contextMenus",
+        "webRequest",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "page_action": {
+        "default_icon": {
+            "64" : "../src/img/text-64.png"
+        }
+    },
+    "icons": {
+        "64" : "../src/img/text-64.png"
+        
+    }
+}
